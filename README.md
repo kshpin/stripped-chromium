@@ -15,9 +15,11 @@ guidance is that new top level directories are for product (e.g. Chrome,
 Android WebView, Ash). Even if these products have multiple executables, the
 code should be in subdirectories of the product.
 
+```
 Strip keyboard shortcut handling
 Strip visual elements (bookmarks)
 Strip extension control, remove some context menu elements
 Ban all links except starting with "http://" and "https://" (maybe also "ws://" and "wss://")
 Look into file choice dialog
 Ban downloads
+```
